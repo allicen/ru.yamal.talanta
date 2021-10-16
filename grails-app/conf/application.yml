@@ -110,8 +110,8 @@ dataSource:
 #    password: ''
     driverClassName: com.mysql.cj.jdbc.Driver
     dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-    username: root
-    password: mysql
+    username: elena
+    password: elena
 
 environments:
     development:
