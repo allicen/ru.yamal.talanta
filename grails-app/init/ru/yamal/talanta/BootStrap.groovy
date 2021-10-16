@@ -17,16 +17,16 @@ class BootStrap {
             }
         }
 
-//        // Добавление учебных заведений
-//        Study study = new Study(name: 'Ямальский университет')
-//
+        // Добавление учебных заведений
+        Study study = new Study(name: 'Ямальский университет')
+        studyService.save(study)
+
 //        // Добаление интересов
 //        Interest interest = new Interest(name: 'Игра в кальмара')
 //
 //        // добавление пользователей
 //        User user = new User(username: 'admin', password: 'admin')
 //
-//        studyService.save(study)
 //        interestService.save(interest)
 //
 //
