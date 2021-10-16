@@ -10,7 +10,7 @@ class BootStrap {
     def springSecurityService
 
     def init = { servletContext ->
-        List<String> authorities = ['ROLE_ADMIN', 'ROLE_USER']
+        List<String> authorities = ['ROLE_ADMIN', 'ROLE_USER', 'ROLE_PARTNER']
         authorities.each { authority ->
             if ( !roleService.findByAuthority(authority) ) {
                 roleService.save(authority)
