@@ -1,8 +1,8 @@
 package ru.yamal.talanta
 
-class InterestImage {
+class Answer {
 
-
+    String answer
 
     static constraints = {
     }

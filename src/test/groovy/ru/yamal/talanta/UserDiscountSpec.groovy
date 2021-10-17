@@ -1,9 +1,9 @@
 package ru.yamal.talanta
 
-import grails.testing.services.ServiceUnitTest
+import grails.testing.gorm.DomainUnitTest
 import spock.lang.Specification
 
-class UserDetailsServiceSpec extends Specification implements ServiceUnitTest<UserDetailsService>{
+class UserDiscountSpec extends Specification implements DomainUnitTest<UserDiscount> {
 
     def setup() {
     }

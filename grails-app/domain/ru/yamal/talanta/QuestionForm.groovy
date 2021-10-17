@@ -1,10 +1,9 @@
 package ru.yamal.talanta
 
-class Discount {
+class QuestionForm {
 
     String name
-    String code
-    String description
+    EventCategory category
 
     static constraints = {
     }

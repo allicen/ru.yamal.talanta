@@ -1,10 +1,8 @@
 package ru.yamal.talanta
 
-class Discount {
+class City {
 
     String name
-    String code
-    String description
 
     static constraints = {
     }

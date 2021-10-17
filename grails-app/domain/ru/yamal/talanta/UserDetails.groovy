@@ -2,14 +2,9 @@ package ru.yamal.talanta
 
 class UserDetails {
 
-    // Полное имя
-    String firstName
+    City city
 
-    // Фамилия
-    String lastName
-
-    // Возраст
-    Integer age
+    Date birthday
 
     // Учебное заведение
     Study studyPlace
